@@ -25,6 +25,7 @@ Partial Class frmMain
         Me.btnBrowse = New System.Windows.Forms.Button()
         Me.lblImages = New System.Windows.Forms.Label()
         Me.lstImages = New System.Windows.Forms.ListBox()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.SuspendLayout()
         '
         'btnBrowse
@@ -53,6 +54,10 @@ Partial Class frmMain
         Me.lstImages.Size = New System.Drawing.Size(194, 212)
         Me.lstImages.TabIndex = 3
         '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -70,5 +75,6 @@ Partial Class frmMain
     Friend WithEvents btnBrowse As System.Windows.Forms.Button
     Friend WithEvents lblImages As System.Windows.Forms.Label
     Friend WithEvents lstImages As System.Windows.Forms.ListBox
+    Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
 
 End Class
